@@ -6,11 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  currentRoute = "";
-  title = 'budget-calculator';
-
-  changeRoute(route :string){
-    this.currentRoute = route;
-    
-  }
+  title = 'angular-pokedex';
 }
